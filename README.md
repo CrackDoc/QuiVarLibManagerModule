@@ -1,0 +1,2 @@
+# QuiVarLibManagerModule
+ c++
