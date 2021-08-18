@@ -1,11 +1,11 @@
 #include <QtWidgets/QApplication>
-#include "QuiVarLibManagerModule.h"
+//#include "QuiVarLibManagerModule.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    CQuiVarLibManagerModule w;
-    w.show();
+    //CQuiVarLibManagerModule w;
+    //w.show();
     return a.exec();
 }

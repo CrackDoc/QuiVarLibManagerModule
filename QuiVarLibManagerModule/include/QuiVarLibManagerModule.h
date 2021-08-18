@@ -7,7 +7,7 @@
 #include "PublicMarco.h"
 namespace Ui
 {
-	class QuiVarLibManagerModuleClass;
+	class QuiVarLibManagerModule;
 }
 class CQuiVarLibManagerModule : public QWidget,public IQuiVarLibManagerModule
 {
@@ -72,7 +72,7 @@ public:
 	*/
 	virtual bool Uninitialise();
 private:
-    Ui::QuiVarLibManagerModuleClass *ui;
+    Ui::QuiVarLibManagerModule *ui;
 };
 DECLARE_MODULE(QuiVarLibManager, extern)
 #endif // QuiVarLibManagerModule_h__

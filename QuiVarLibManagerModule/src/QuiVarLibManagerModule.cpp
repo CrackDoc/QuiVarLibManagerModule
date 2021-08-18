@@ -3,7 +3,7 @@
 
 CQuiVarLibManagerModule::CQuiVarLibManagerModule(QWidget *parent)
     : QWidget(parent)
-	,ui(new Ui::QuiVarLibManagerModuleClass)
+	,ui(new Ui::QuiVarLibManagerModule)
 {
     ui->setupUi(this);
 }
